@@ -1,4 +1,3 @@
-# a0-release
 # Question 1
 # Program's search abstraction
 The program starts from the initial state, considers all the possible moves from that state, calculates the cost and pops the point with minimum cost from the fringe. So far, if the current state is equal to the goal state, the program returns the solution (R,L,U,D directions), otherwise it will add the current state along with its path (the directions it has taken to get to this state) to the fringe to be considered later. So, it will repeat the same steps until the next step is actually the goal state, which then returns the result.
